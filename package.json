@@ -1,0 +1,49 @@
+{
+  "name": "pimatic-jointspace-ambilight",
+  "description": "Pimatic Plugin to read the color pixels of a Philips Ambilight TV",
+  "author": {
+    "name": "Marcus Wittig",
+    "url": "https://github.com/mwittig/pimatic-jointspace-ambilight"
+  },
+  "main": "jointspace-ambilight",
+  "files": [
+    "jointspace-ambilight.coffee",
+    "README.md",
+    "jointspace-ambilight-config-schema.coffee",
+    "HISTORY.md",
+    "LICENSE"
+  ],
+  "version": "0.9.0",
+  "homepage": "https://github.com/mwittig/pimatic-jointspace-ambilight",
+  "keywords": [
+    "pimatic",
+    "jointspace",
+    "ambilight"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mwittig/pimatic-jointspace-ambilight.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mwittig/pimatic-jointspace-ambilight/issues"
+  },
+  "license": "AGPL-3.0",
+  "configSchema": "jointspace-ambilight-config-schema.coffee",
+  "dependencies": {
+    "ambilight": "^0.2.4",
+    "pimatic-plugin-commons": "^0.8.8"
+  },
+  "peerDependencies": {
+    "pimatic": ">=0.9.0 <1.0.0"
+  },
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=2.0.0"
+  },
+  "maintainers": [
+    {
+      "name": "mwittig",
+      "email": "WittigMarcus@gmail.com"
+    }
+  ]
+}
